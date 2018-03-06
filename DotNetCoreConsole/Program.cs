@@ -11,12 +11,15 @@ namespace DotNetCoreConsole
     {
         static void Main(string[] args)
         {
+            //test
             Test test = new Test();
             Console.WriteLine(test.Hello("wjh"));
             
+            //utils
             UtilsHelper test2 = new UtilsHelper();
             Console.WriteLine(test2.Hello("wjh"));
             
+            //path
             string path = Directory.GetCurrentDirectory();
             Console.WriteLine(path);
             
